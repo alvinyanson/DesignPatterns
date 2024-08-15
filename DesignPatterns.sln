@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCounterManager", "Singleton\Practical\AppCounterManager\AppCounterManager.csproj", "{2A8CDFC0-4298-4063-A703-F380A1962DA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDecorator", "Decorator\Practical\PizzaDecorator\PizzaDecorator.csproj", "{538A8367-7251-4826-BBA9-851FFF8DF46C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538A8367-7251-4826-BBA9-851FFF8DF46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538A8367-7251-4826-BBA9-851FFF8DF46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538A8367-7251-4826-BBA9-851FFF8DF46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538A8367-7251-4826-BBA9-851FFF8DF46C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
