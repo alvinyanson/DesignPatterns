@@ -1,5 +1,5 @@
 ﻿
-namespace ThreadSafe
+namespace Singleton
 {
     public sealed class ThreadSafe
     {

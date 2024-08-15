@@ -1,4 +1,4 @@
-﻿namespace ThreadSafe
+﻿namespace Singleton
 {
     class Program
     {
@@ -19,6 +19,14 @@
         
         private static void PrintTeacherDetails()
         {
+            NoThreadSafe fromTeachaer = NoThreadSafe.GetInstance();
+            fromTeachaer.PrintDetails("From Teacher - Not Thread Safe");
+
+            //Call the GetInstance static method to get the Singleton Instance
+            NoThreadSafe fromStudent = NoThreadSafe.GetInstance();
+            fromStudent.PrintDetails("From Student - Not Thread Safe");
+
+
             //Thread-1 Calling the GetInstance() Method of the Singleton class
             ThreadSafe fromTeacher1 = ThreadSafe.GetInstance();
             fromTeacher1.PrintDetails("From Teacher - ThreadSafeLock");
