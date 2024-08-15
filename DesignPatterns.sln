@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{1C006F05-84A1-4D22-A9DA-672F2FFF43A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCounterManager", "Singleton\Practical\AppCounterManager\AppCounterManager.csproj", "{2A8CDFC0-4298-4063-A703-F380A1962DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1C006F05-84A1-4D22-A9DA-672F2FFF43A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C006F05-84A1-4D22-A9DA-672F2FFF43A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C006F05-84A1-4D22-A9DA-672F2FFF43A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8CDFC0-4298-4063-A703-F380A1962DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
