@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDecorator", "Decorator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistration", "Facade\Practical\UserRegistration\UserRegistration.csproj", "{3C6156D9-FDF9-482C-910C-ACCF60005766}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockPrice", "Observer\Practical\StockPrice\StockPrice.csproj", "{8E4776CB-DB65-4561-A70C-F88B489E53DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3C6156D9-FDF9-482C-910C-ACCF60005766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C6156D9-FDF9-482C-910C-ACCF60005766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C6156D9-FDF9-482C-910C-ACCF60005766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4776CB-DB65-4561-A70C-F88B489E53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4776CB-DB65-4561-A70C-F88B489E53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4776CB-DB65-4561-A70C-F88B489E53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4776CB-DB65-4561-A70C-F88B489E53DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
